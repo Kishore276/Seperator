@@ -1,0 +1,337 @@
+[
+  {
+    "PlantType": "Weed",
+    "CommonName": "Dandelion",
+    "ScientificName": "Taraxacum officinale",
+    "AlternativeNames": ["Common Dandelion", "Blowball", "Lion's Tooth"],
+    "Family": "Asteraceae",
+    "Origin": "Europe",
+    "GlobalDistribution": "Worldwide in temperate regions",
+    "GrowthStages": {
+      "Seedling": "Small rosette with deeply lobed leaves",
+      "Juvenile": "Larger rosette, leaves more pronounced",
+      "Mature": "Full rosette with hollow flower stems",
+      "Flowering": "Bright yellow composite flowers",
+      "Fruiting": "White puffball seed heads"
+    },
+    "Message": "This is a common perennial lawn weed found worldwide.",
+    "ControlMeasure": "Can be removed by digging out the taproot. Herbicides containing 2,4-D are effective. Best controlled in fall when nutrients move to roots.",
+    "Climate": "Grows in temperate climates worldwide, very adaptable to various soil conditions.",
+    "AdditionalInfo": "Despite being a weed, dandelions have edible parts and medicinal properties. Rich in vitamins A, C, and K.",
+    "ToxicityLevel": "Non-toxic",
+    "EconomicImpact": "Low to moderate lawn damage",
+    "IdentificationTips": "Deeply lobed leaves, hollow stems, milky sap, yellow flowers"
+  },
+  {
+    "WeedType": "Crabgrass",
+    "ScientificName": "Digitaria sanguinalis",
+    "Message": "This is an invasive grass weed.",
+    "ControlMeasure": "Pre-emergent herbicides in spring, or pull manually while young.",
+    "Climate": "Thrives in warm, dry conditions.",
+    "AdditionalInfo": "Annual grass that spreads via seeds and can quickly take over lawns."
+  },
+  {
+    "WeedType": "Bindweed",
+    "ScientificName": "Convolvulus arvensis",
+    "Message": "This is a persistent perennial weed.",
+    "ControlMeasure": "Requires persistent removal of all root parts. Systemic herbicides may be needed.",
+    "Climate": "Grows in most climates with moderate rainfall.",
+    "AdditionalInfo": "Has deep extensive root system making it difficult to control."
+  },
+  {
+    "WeedType": "Chickweed",
+    "ScientificName": "Stellaria media",
+    "Message": "This is a common garden weed.",
+    "ControlMeasure": "Can be removed by hand pulling or hoeing. Mulching helps prevent growth.",
+    "Climate": "Prefers cool, moist conditions.",
+    "AdditionalInfo": "Annual weed that can produce several generations in one year."
+  },
+  {
+    "WeedType": "Stinging Nettle",
+    "ScientificName": "Urtica dioica",
+    "Message": "This is a weed with stinging hairs.",
+    "ControlMeasure": "Wear gloves to pull manually. Cut before it seeds to prevent spreading.",
+    "Climate": "Grows in temperate regions with adequate moisture.",
+    "AdditionalInfo": "Has traditional medicinal uses and can be cooked as a nutritious vegetable."
+  },
+  {
+    "WeedType": "Abutilon hirtum",
+    "ScientificName": "Abutilon hirtum",
+    "Message": "This is a tropical weed species.",
+    "ControlMeasure": "Manual removal or herbicide application. Prevent seed dispersal.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as hairy abutilon, it can grow in disturbed areas."
+  },
+  {
+    "WeedType": "Acalypha indica",
+    "ScientificName": "Acalypha indica",
+    "Message": "This is a common tropical weed.",
+    "ControlMeasure": "Hand pulling or herbicide treatment. Regular monitoring needed.",
+    "Climate": "Tropical and subtropical climates.",
+    "AdditionalInfo": "Also known as Indian copperleaf, it has medicinal properties."
+  },
+  {
+    "WeedType": "Aerva lanata",
+    "ScientificName": "Aerva lanata",
+    "Message": "This is a woolly weed species.",
+    "ControlMeasure": "Manual removal or chemical control. Prevent flowering.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as mountain knotgrass, it's drought-resistant."
+  },
+  {
+    "WeedType": "Amaranthus spinosus",
+    "ScientificName": "Amaranthus spinosus",
+    "Message": "This is a spiny amaranth weed.",
+    "ControlMeasure": "Manual removal with gloves. Herbicide application for large infestations.",
+    "Climate": "Warm temperate to tropical regions.",
+    "AdditionalInfo": "Also known as spiny pigweed, it has sharp spines on stems."
+  },
+  {
+    "WeedType": "Calotropis",
+    "ScientificName": "Calotropis gigantea",
+    "Message": "This is a large milkweed weed.",
+    "ControlMeasure": "Cut and remove before flowering. Herbicide for established plants.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as giant milkweed, it produces toxic latex."
+  },
+  {
+    "WeedType": "Chinee apple",
+    "ScientificName": "Ziziphus mauritiana",
+    "Message": "This is an invasive fruit tree weed.",
+    "ControlMeasure": "Cut down and treat stump with herbicide. Remove seedlings.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as Indian jujube, it can form dense thickets."
+  },
+  {
+    "WeedType": "Cleome viscosa",
+    "ScientificName": "Cleome viscosa",
+    "Message": "This is a sticky cleome weed.",
+    "ControlMeasure": "Hand pulling or herbicide application. Prevent seed formation.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as Asian spiderflower, it has sticky glandular hairs."
+  },
+  {
+    "WeedType": "Cuscuta",
+    "ScientificName": "Cuscuta spp.",
+    "Message": "This is a parasitic dodder weed.",
+    "ControlMeasure": "Remove infected plants. Herbicide application may be needed.",
+    "Climate": "Various climates worldwide.",
+    "AdditionalInfo": "Also known as dodder, it's a parasitic plant that lacks chlorophyll."
+  },
+  {
+    "WeedType": "Cyperus rotundus",
+    "ScientificName": "Cyperus rotundus",
+    "Message": "This is purple nutsedge weed.",
+    "ControlMeasure": "Dig out tubers completely. Herbicide with specific nutsedge control.",
+    "Climate": "Tropical and subtropical regions worldwide.",
+    "AdditionalInfo": "Also known as purple nutsedge, it's one of the world's worst weeds."
+  },
+  {
+    "WeedType": "Datura",
+    "ScientificName": "Datura stramonium",
+    "Message": "This is a toxic jimsonweed.",
+    "ControlMeasure": "Wear gloves to remove. Herbicide application for large areas.",
+    "Climate": "Temperate to tropical regions.",
+    "AdditionalInfo": "Also known as jimsonweed, it's highly toxic if ingested."
+  },
+  {
+    "WeedType": "Digitaria sanguinalis",
+    "ScientificName": "Digitaria sanguinalis",
+    "Message": "This is hairy crabgrass.",
+    "ControlMeasure": "Pre-emergent herbicides or manual removal. Maintain dense turf.",
+    "Climate": "Warm temperate to tropical regions.",
+    "AdditionalInfo": "Also known as hairy crabgrass, it's an annual grass weed."
+  },
+  {
+    "WeedType": "Echinochloa colona",
+    "ScientificName": "Echinochloa colona",
+    "Message": "This is jungle rice weed.",
+    "ControlMeasure": "Herbicide application or manual removal. Prevent seed production.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as jungle rice, it's a major rice field weed."
+  },
+  {
+    "WeedType": "Eichhornia crassipes",
+    "ScientificName": "Eichhornia crassipes",
+    "Message": "This is water hyacinth.",
+    "ControlMeasure": "Physical removal or biological control. Prevent spread to new areas.",
+    "Climate": "Tropical and subtropical aquatic environments.",
+    "AdditionalInfo": "Also known as water hyacinth, it's a floating aquatic weed."
+  },
+  {
+    "WeedType": "Euphorbia prostrata",
+    "ScientificName": "Euphorbia prostrata",
+    "Message": "This is prostrate spurge.",
+    "ControlMeasure": "Hand pulling or herbicide application. Mulching helps prevent.",
+    "Climate": "Warm temperate to tropical regions.",
+    "AdditionalInfo": "Also known as prostrate spurge, it has milky latex sap."
+  },
+  {
+    "WeedType": "Lantana",
+    "ScientificName": "Lantana camara",
+    "Message": "This is a toxic lantana weed.",
+    "ControlMeasure": "Cut and treat stump with herbicide. Remove all plant parts.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as wild sage, it's toxic to livestock and invasive."
+  },
+  {
+    "WeedType": "Martynia annua",
+    "ScientificName": "Martynia annua",
+    "Message": "This is devil's claw weed.",
+    "ControlMeasure": "Hand pulling or herbicide application. Prevent seed dispersal.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as devil's claw, it has distinctive seed pods."
+  },
+  {
+    "WeedType": "Parkinsonia",
+    "ScientificName": "Parkinsonia aculeata",
+    "Message": "This is Jerusalem thorn.",
+    "ControlMeasure": "Cut down and treat stump. Remove seedlings promptly.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as Jerusalem thorn, it has sharp thorns."
+  },
+  {
+    "WeedType": "Parthenium",
+    "ScientificName": "Parthenium hysterophorus",
+    "Message": "This is congress grass.",
+    "ControlMeasure": "Manual removal or herbicide application. Prevent flowering.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as congress grass, it can cause allergic reactions."
+  },
+  {
+    "WeedType": "Phyllanthus niruri",
+    "ScientificName": "Phyllanthus niruri",
+    "Message": "This is stonebreaker weed.",
+    "ControlMeasure": "Hand pulling or herbicide application. Regular monitoring.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as stonebreaker, it has traditional medicinal uses."
+  },
+  {
+    "WeedType": "Portulaca oleracea",
+    "ScientificName": "Portulaca oleracea",
+    "Message": "This is common purslane.",
+    "ControlMeasure": "Hand pulling or hoeing. Mulching helps prevent growth.",
+    "Climate": "Warm temperate to tropical regions worldwide.",
+    "AdditionalInfo": "Also known as purslane, it's edible and nutritious."
+  },
+  {
+    "WeedType": "Prickly acacia",
+    "ScientificName": "Vachellia nilotica",
+    "Message": "This is an invasive acacia tree.",
+    "ControlMeasure": "Cut down and treat stump with herbicide. Remove seedlings.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as gum arabic tree, it has sharp thorns."
+  },
+  {
+    "WeedType": "Pycerus polystachyos",
+    "ScientificName": "Pycerus polystachyos",
+    "Message": "This is a sedge weed.",
+    "ControlMeasure": "Dig out rhizomes completely. Herbicide application may be needed.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as manyspike flatsedge, it's a perennial sedge."
+  },
+  {
+    "WeedType": "Rubber vine",
+    "ScientificName": "Cryptostegia grandiflora",
+    "Message": "This is an invasive vine.",
+    "ControlMeasure": "Cut and treat stump with herbicide. Remove all plant parts.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as rubber vine, it can smother native vegetation."
+  },
+  {
+    "WeedType": "Serpyllifolia",
+    "ScientificName": "Thymus serpyllum",
+    "Message": "This is wild thyme weed.",
+    "ControlMeasure": "Hand pulling or herbicide application. Prevent spread.",
+    "Climate": "Temperate regions.",
+    "AdditionalInfo": "Also known as wild thyme, it can invade lawns and gardens."
+  },
+  {
+    "WeedType": "Siam weed",
+    "ScientificName": "Chromolaena odorata",
+    "Message": "This is an invasive shrub.",
+    "ControlMeasure": "Cut down and treat stump. Remove seedlings promptly.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as chromolaena, it can form dense thickets."
+  },
+  {
+    "WeedType": "Snake weed",
+    "ScientificName": "Gutierrezia sarothrae",
+    "Message": "This is broom snakeweed.",
+    "ControlMeasure": "Herbicide application or manual removal. Prevent seed production.",
+    "Climate": "Arid and semi-arid regions.",
+    "AdditionalInfo": "Also known as broom snakeweed, it's toxic to livestock."
+  },
+  {
+    "WeedType": "Sorghum halepense",
+    "ScientificName": "Sorghum halepense",
+    "Message": "This is johnsongrass.",
+    "ControlMeasure": "Dig out rhizomes completely. Herbicide application for large areas.",
+    "Climate": "Temperate to tropical regions worldwide.",
+    "AdditionalInfo": "Also known as johnsongrass, it's a perennial grass weed."
+  },
+  {
+    "WeedType": "Taraxacum officinale",
+    "ScientificName": "Taraxacum officinale",
+    "Message": "This is common dandelion.",
+    "ControlMeasure": "Dig out taproot completely. Herbicide application for large areas.",
+    "Climate": "Temperate regions worldwide.",
+    "AdditionalInfo": "Also known as dandelion, it has edible leaves and medicinal properties."
+  },
+  {
+    "WeedType": "Trianthema portulacastrum",
+    "ScientificName": "Trianthema portulacastrum",
+    "Message": "This is horse purslane.",
+    "ControlMeasure": "Hand pulling or herbicide application. Mulching helps prevent.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as horse purslane, it's a prostrate annual weed."
+  },
+  {
+    "WeedType": "Tridax procumbens",
+    "ScientificName": "Tridax procumbens",
+    "Message": "This is coatbuttons weed.",
+    "ControlMeasure": "Hand pulling or herbicide application. Prevent flowering.",
+    "Climate": "Tropical and subtropical regions.",
+    "AdditionalInfo": "Also known as coatbuttons, it has daisy-like flowers."
+  },
+  {
+    "WeedType": "Xanthium strumarium",
+    "ScientificName": "Xanthium strumarium",
+    "Message": "This is common cocklebur.",
+    "ControlMeasure": "Hand pulling or herbicide application. Remove before seed formation.",
+    "Climate": "Temperate to tropical regions worldwide.",
+    "AdditionalInfo": "Also known as cocklebur, it has spiny seed pods."
+  },
+  {
+    "WeedType": "Cannabis",
+    "ScientificName": "Cannabis sativa",
+    "Message": "This is cannabis/marijuana plant.",
+    "ControlMeasure": "Remove immediately if growing in unauthorized areas. Check local regulations.",
+    "Climate": "Temperate to tropical regions worldwide.",
+    "AdditionalInfo": "Also known as marijuana, hemp, or weed. Contains psychoactive compounds."
+  },
+  {
+    "WeedType": "Marijuana",
+    "ScientificName": "Cannabis sativa",
+    "Message": "This is marijuana/cannabis plant.",
+    "ControlMeasure": "Remove immediately if growing in unauthorized areas. Check local regulations.",
+    "Climate": "Temperate to tropical regions worldwide.",
+    "AdditionalInfo": "Also known as cannabis, hemp, or weed. Contains psychoactive compounds."
+  },
+  {
+    "WeedType": "Hemp",
+    "ScientificName": "Cannabis sativa",
+    "Message": "This is hemp plant.",
+    "ControlMeasure": "Remove immediately if growing in unauthorized areas. Check local regulations.",
+    "Climate": "Temperate to tropical regions worldwide.",
+    "AdditionalInfo": "Also known as cannabis or marijuana. Industrial hemp has low THC content."
+  },
+  {
+    "WeedType": "Cannabis sativa",
+    "ScientificName": "Cannabis sativa",
+    "Message": "This is cannabis/marijuana plant.",
+    "ControlMeasure": "Remove immediately if growing in unauthorized areas. Check local regulations.",
+    "Climate": "Temperate to tropical regions worldwide.",
+    "AdditionalInfo": "Also known as marijuana, hemp, or weed. Contains psychoactive compounds."
+  }
+]
