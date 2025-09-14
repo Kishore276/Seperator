@@ -1,0 +1,66 @@
+# Project: Advanced Global Plant Classification System
+
+## Tech Stack Overview
+
+### 1. **Programming Language**
+- **Python 3.8+**
+
+### 2. **Web Framework**
+- **Flask**: For serving the web application and API endpoints.
+
+### 3. **Deep Learning & ML**
+- **TensorFlow / Keras**: For advanced plant classification models (EfficientNet, ResNet, DenseNet, InceptionResNet, Vision Transformer).
+- **scikit-learn**: For data splitting, metrics, and evaluation.
+- **NumPy, Pandas**: For data manipulation and analysis.
+
+### 4. **Image Processing**
+- **OpenCV**: For image preprocessing, enhancement, and noise reduction.
+- **Pillow (PIL)**: For image loading and manipulation.
+- **scikit-image, matplotlib, scipy**: For advanced image enhancement and visualization.
+
+### 5. **Async & API Integration**
+- **aiohttp, asyncio**: For asynchronous API calls to external plant identification services.
+- **requests**: For synchronous HTTP requests.
+- **python-dotenv**: For environment variable management (API keys).
+
+### 6. **Deployment**
+- **gunicorn**: For production WSGI server (optional, for Linux/WSL).
+
+## Models Used
+
+### 1. **Advanced CNN Models**
+- **EfficientNetB4/B7, ResNet152V2, DenseNet201, InceptionResNetV2**: Used for robust plant and weed classification. Transfer learning is applied for high accuracy.
+- **Vision Transformer (ViT)**: (If enabled) for state-of-the-art image recognition.
+
+### 2. **Growth Stage Detection**
+- Custom model to identify plant growth stages (seedling, juvenile, vegetative, etc.) for more accurate classification.
+
+### 3. **Ensemble System**
+- Combines predictions from multiple models and APIs (Plant.id, PlantNet, local CNNs) for improved reliability.
+
+### 4. **Legacy Model**
+- `weed_classifier.h5`: A classic Keras model for basic weed/crop classification.
+
+## Data & Databases
+- **global_plant_database.json**: Comprehensive plant info.
+- **Weed_info.json**: Legacy weed database.
+- **class_indices.json**: Maps class names to indices for model output.
+
+## Python Libraries Required
+- See `Web-application/requirements.txt` for full list. Key libraries:
+  - Flask, requests, Werkzeug, Pillow, python-dotenv, gunicorn
+  - tensorflow, opencv-python, numpy, scikit-image, scipy, aiohttp, asyncio, dataclasses, matplotlib, pandas
+
+## API Keys & Environment Variables
+- **PLANT_ID_API_KEY**: Required for Plant.id API (default/test key provided, but you should use your own for production).
+- **PLANTNET_API_KEY, TROPICOS_API_KEY**: (Optional) For additional plant APIs.
+- Set these in `.env` in the `Web-application` folder.
+
+## How to Run
+1. Run `run.bat` (Windows) to set up environment and launch the app.
+2. The app will be available at http://localhost:8080 (or as printed in the terminal).
+
+## Notes
+- For best results, use your own API keys in `.env`.
+- The system supports both advanced and simple modes (see `app.py` and `simple_app.py`).
+- For Linux/Mac, use the same steps but activate the virtual environment with `source venv/bin/activate`.
